@@ -1,5 +1,5 @@
-### Bimestral
+## Bimestral
 
-## Evidencia Canvas Basico
+### Evidencia Canvas Basico
 
 ![](img/e1.png)
