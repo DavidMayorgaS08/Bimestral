@@ -43,3 +43,7 @@
 ### Evidencia BorrarDibujar
 
 ![](img/e18.png)
+
+### Evidencia Colisiones
+
+![](img/e19.png)
