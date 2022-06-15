@@ -19,23 +19,24 @@
                 var ctx = canvas.getContext("2d");
                 if(ctx)
                 {
-                    var gradiente = ctx.createRadialGradient(canvas.width/2,canvas.height,10,canvas.width/2,0,100);
-                    gradiente.addColorStop(0, "pink");
-                    gradiente.addColorStop(0.15, "yellow");
-                    gradiente.addColorStop(0.35, "white");
-                    gradiente.addColorStop(0.65, "yellow");
-                    gradiente.addColorStop(1, "red");
-                    ctx.fillStyle = gradiente;
-                    ctx.fillRect(0,0,canvas.width,canvas.height);
+                    canvas.onmousedown = function(e)
+                    {
+                        var posCanvas = canvas.getBoundingClientRect();
+                        var x = e.clientX - posCanvas.left;
+                        var y = e.clientY - posCanvas.top;
 
-                    var gradiente = ctx.createRadialGradient(canvas.width/2,canvas.height/2,10,canvas.width/2,canvas.height/2,300);
-                    gradiente.addColorStop(0, "pink");
-                    gradiente.addColorStop(0.15, "yellow");
-                    gradiente.addColorStop(0.35, "white");
-                    gradiente.addColorStop(0.65, "yellow");
-                    gradiente.addColorStop(1, "red");
-                    ctx.fillStyle = gradiente;
-                    ctx.fillRect(0,0,canvas.width,canvas.height);
+                        alert("izq "+posCanvas.left+"\n"+"der "+posCanvas.right+"\n"+"top "+ posCanvas.top+"\n"+"bot "+posCanvas.bottom+"\n"+"width "+posCanvas.width+"\n"+"height"+posCanvas.height+"\n"+"width "+canvas.width+"\n"+"height "+canvas.height+"\n"+"x "+x+"\n"+"y "+y+"\n"+"xx "+e.clientX+"\n"+"yy "+e.clientY);
+                        }
+                    /*canvas.onmouseup = function(e){
+                        var x = e.clientX;
+                        var y = e.clientY;
+                        alert(x+" "+y);
+                    }*/
+                    /*canvas.onmousemove = function(e){
+                        var x = e.clientX;
+                        var y = e.clientY;
+                        alert(x+" "+y);
+                    }*/
                 }
                 else
                 {
