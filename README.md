@@ -39,3 +39,7 @@
 ### Evidencia animacion
 
 ![](img/e17.png)
+
+### Evidencia BorrarDibujar
+
+![](img/e18.png)
