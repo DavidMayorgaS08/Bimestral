@@ -59,3 +59,7 @@
 ### Evidencia naves
 
 ![](img/e22.png)
+
+### Evidencia Tanque
+
+![](img/e23.png)
