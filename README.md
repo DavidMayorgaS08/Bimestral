@@ -55,3 +55,7 @@
 ### Evidencia ahorcado
 
 ![](img/e21.png)
+
+### Evidencia naves
+
+![](img/e22.png)
