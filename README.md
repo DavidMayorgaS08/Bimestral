@@ -47,3 +47,7 @@
 ### Evidencia Colisiones
 
 ![](img/e19.png)
+
+### Evidencia Puntos finales
+
+![](img/e20.png)
