@@ -51,3 +51,7 @@
 ### Evidencia Puntos finales
 
 ![](img/e20.png)
+
+### Evidencia ahorcado
+
+![](img/e21.png)
