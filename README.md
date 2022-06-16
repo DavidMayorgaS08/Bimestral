@@ -63,3 +63,7 @@
 ### Evidencia Tanque
 
 ![](img/e23.png)
+
+### Evidencia Tanque modificado 
+
+![](img/e24.png)
